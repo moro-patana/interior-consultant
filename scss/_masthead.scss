@@ -6,9 +6,9 @@ h2 {
 }
 .masthead__info {
     font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
 }
 .masthead__post__link::after {
     content: url("../img/arrow-icon.svg");
@@ -37,8 +37,8 @@ line-height: 17px;
 .article__release__date {
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 30px;
+    line-height: 37px;
     padding: 1rem;
     margin: 0;
 }
