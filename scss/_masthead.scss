@@ -1,5 +1,9 @@
+h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+}
 .masthead__link::after {
     content: url("../img/arrow-icon.svg");
-    // background-image: url("../img/arrow-icon.svg");
-    // background-repeat: no-repeat;
 } 
