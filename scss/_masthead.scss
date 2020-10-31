@@ -4,6 +4,12 @@ h2 {
     font-size: 36px;
     line-height: 46px;
 }
+.masthead__info {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
 .masthead__link::after {
     content: url("../img/arrow-icon.svg");
 } 
