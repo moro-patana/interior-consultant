@@ -55,7 +55,7 @@ body > [type="checkbox"]:checked ~ main {
   height: 1rem;
   display: block;
   background-image: url("../img/menu-icon.svg");
-  background-size: 20px;
+  background-size: 40px;
   background-repeat: no-repeat; }
 
 .a11y,
