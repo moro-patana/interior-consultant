@@ -6,10 +6,10 @@ h2 {
 }
 .masthead__info {
     font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
 }
-.masthead__link::after {
+.masthead__post__link::after {
     content: url("../img/arrow-icon.svg");
 } 
