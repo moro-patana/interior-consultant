@@ -1,0 +1,22 @@
+{
+  "name": "interior-consultant",
+  "version": "1.0.0",
+  "description": "Challenge: Create a homepage following the design. The page should be responsive. Don’t look at the existing solution. Fulfill user stories below:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moro-patana/interior-consultant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moro-patana/interior-consultant/issues"
+  },
+  "homepage": "https://github.com/moro-patana/interior-consultant#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
