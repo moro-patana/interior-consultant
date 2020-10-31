@@ -37,6 +37,13 @@ h2 {
 .masthead__post__link::after {
   content: url("../img/arrow-icon.svg"); }
 
+.article__post {
+  position: relative;
+  top: -60px;
+  background-color: black;
+  margin-left: 60px;
+  margin-right: 1rem; }
+
 .article__post__designer {
   display: flex;
   flex-direction: row;
@@ -49,6 +56,14 @@ h2 {
 .article__designer_about {
   display: flex;
   flex-direction: column; }
+
+.article__release__date {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 1rem;
+  margin: 0; }
 
 .menu {
   padding: 1rem;
