@@ -154,6 +154,29 @@ body > [type="checkbox"],
   top: 1.5rem;
   right: 1rem; }
 
+@media (min-width: 1114px) {
+  .menu {
+    padding: 0;
+    background-color: transparent;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    width: auto;
+    box-shadow: none;
+    transform: none;
+    transition: none; }
+  .menu ul {
+    flex-direction: row; }
+  .icon_menu {
+    display: none; }
+  .menu li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 86px; } }
+
 footer {
   text-align: center; }
 
