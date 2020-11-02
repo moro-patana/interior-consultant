@@ -13,3 +13,21 @@ a {
 li {
     list-style: none;
 }
+hr {
+    margin-left: 57px;
+    margin-right: 57px;
+    margin-top: 57px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.article__designer__profile {
+    width: 100px;
+    border-radius: 50px;
+}
+@media (min-width: 1114px) {
+    body {
+        padding: 3rem;
+    }
+    hr {
+        display: none;
+    }
+}
