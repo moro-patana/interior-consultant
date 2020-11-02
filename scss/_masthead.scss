@@ -10,8 +10,10 @@ h2 {
     font-size: 14px;
     line-height: 17px;
 }
-.masthead__post__link::after {
-    content: url("../img/arrow-icon.svg");
+.masthead__post {
+    background-image: url("../img/arrow-icon.svg");
+    background-repeat: no-repeat;
+    background-position: top 50% right 10%;
 } 
 .article__post {
     position: relative;
@@ -56,4 +58,5 @@ h2 {
     font-size: 14px;
     line-height: 17px;
     color: white;
+    padding-right: 4rem;
 }
