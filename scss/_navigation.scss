@@ -38,13 +38,24 @@ body > [type="checkbox"]:checked ~ main {
 
 
 .icon_menu {
-  width: 1rem;
-  height: 1rem;
+  width: 50px;
+  height: 50px;
   display: block;
   background-image: url("../img/menu-icon.svg");
-  background-size: 20px;
+  background-size: 80px;
   background-repeat: no-repeat;
 }
+.menu li:nth-of-type(1),
+.menu li:nth-of-type(3) {
+  padding: 2rem;
+
+}
+.menu li:nth-of-type(2),
+.menu li:nth-of-type(4) {
+  padding: 1rem;
+
+}
+
 .a11y,
 [type="checkbox"] {
   opacity: 0;
@@ -54,17 +65,17 @@ body > [type="checkbox"]:checked ~ main {
   display: flex;
   flex-direction: column;
 }
-
-.menu li a {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
+.menu__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
 
 }
-
+.menu__link--active {
+    font-weight: bold;
+}
 
 body > nav > ul a:hover {
   opacity: 1;
@@ -76,32 +87,32 @@ body > [type="checkbox"],
   top: 1.5rem;
   right: 1rem;
 }
- 
 @media (min-width: 1114px) {
-  .menu {
-      padding: 0;
-      background-color: transparent;
-      top: 0;
-      left: auto;
-      right: 0;
-      bottom: auto;
-      width: auto;
-      box-shadow: none;
-      transform: none;
-      transition: none
-    
-  }
-  .menu ul {
-    flex-direction: row;
-  }
-  .icon_menu {
-    display: none;
-  }
-  .menu li {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    padding-right: 86px;
-  }
+.menu {
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: auto;
+  right: 0;
+  bottom: auto;
+  width: auto;
+  box-shadow: none;
+  transform: none;
+  transition: none
+}
+
+/* Switch from column to row flex */
+.menu ul {
+  flex-direction: row;
+  margin-right: 6rem;
+}
+.menu li:nth-of-type(1),
+.menu li:nth-of-type(3) {
+  padding: 1rem;
+
+}
+
+.icon_menu {
+  display: none;
+}
 }
