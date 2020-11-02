@@ -1,74 +1,61 @@
+.masthead {
+    margin-bottom: 3rem;
+}
 h2 {
+    font-family: "Lora";
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 46px;
 }
 .masthead__info {
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+    width: 250px;
+    height: 85px;
+}
+.article__release__date {
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
 }
 .masthead__post {
     background-image: url("../img/arrow-icon.svg");
     background-repeat: no-repeat;
     background-position: top 50% right 10%;
 } 
-.article__post {
-    position: relative;
-    top: -60px;
-    background-color: black;
-    margin-left: 60px;
-    margin-right: 1rem;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-}
-.article__post__designer {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-}
-.article__designer_profile {
-    width: 30%;
-    border-radius: 50%;
-}
-.article__designer_about {
-    display: flex;
-    flex-direction: column;
-}
-.article__release__date {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
-    padding: 1rem;
-    margin: 0;
-}
-.article__designer_profession {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 12px;
-    color: #828282;
-    padding-top: 0.5rem;
-}
+
 .masthead__post__link {
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    color: white;
-    padding-right: 4rem;
-}
-.article {
-    padding-top: 3rem;
+    color: #ffff;
+    padding-right: 3rem;
 }
 @media (min-width: 1114px) {
-      main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-  }
-
+    .masthead {
+        margin-top: 195px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    .masthead__info {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        width: 410px;
+        height: 145px;
+    }
+    .masthead__post__link {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
