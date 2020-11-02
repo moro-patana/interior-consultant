@@ -1,13 +1,18 @@
 footer {
     text-align: center;
+    padding: 1rem;
 }
 footer > span {
-    padding: 1rem;
-    margin-top: 2rem;
-    border-top: 1px solid #ffff;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: #A9A9A9;
+
+}
+@media (min-width: 1114px) {
+    footer {
+        margin-top: 50%;
+    }
 }
