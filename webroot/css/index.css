@@ -74,6 +74,13 @@ h2 {
   color: #828282;
   padding-top: 0.5rem; }
 
+.masthead__post__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: white; }
+
 .menu {
   padding: 1rem;
   border-radius: 10px;
